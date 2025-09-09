@@ -1,0 +1,9 @@
+import React from 'react'
+
+const Button = ({children, className=""}) => {
+  return (
+      <button className={`font-primary font-semibold text-white bg-primary border-none py-4 px-11 ${className}`} >{children}</button>
+  )
+}
+
+export default Button
