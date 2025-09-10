@@ -5,7 +5,7 @@ const Copyright = () => {
   return (
       <div className='bg-[#282828] py-[32px]'>
           <Container>
-              <p className=' font-primay font-medium text-[#6C6C6C]'>© Copyright 2024 by AltDesain Studio – All right reserved.</p>
+              <p className=' font-primay font-medium text-[#6C6C6C]'>© Copyright 2025 by Ashraf Shahin Studio – All right reserved.</p>
           </Container>
 
           

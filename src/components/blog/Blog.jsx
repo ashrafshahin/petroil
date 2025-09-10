@@ -1,4 +1,5 @@
 import React from 'react'
+import { IoIosArrowForward } from "react-icons/io";
 
 import Container from '../Layouts/Container'
 import Flex from '../Layouts/Flex'
@@ -40,12 +41,19 @@ const Blog = () => {
                               <p className='font-semibold text-[12px]' >Read more</p>
                           </Button>
                       </div>
-
+                      
                   </div>
                   
                   
                   
               </Flex>
+          </Container>
+          <Container className='flex justify-end items-center' >
+              <div className='font-primary font-bold mt-[29px] space-x-[20px]'>MORE FROM THE BLOG  
+              </div>
+              <div className='text-[18px] mt-[27px] '><IoIosArrowForward /></div>
+              
+              
           </Container>
     </div>
   )

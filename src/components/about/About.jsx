@@ -11,7 +11,7 @@ const About = () => {
                   <div className='w-[30%] py-[100px] px-[75px] bg-primary'>
                       <p className='font-primary font-bold text-[36px] w-[262px]'>Learn more about our company</p>
                   </div>
-                  <div className='w-[70%] after:z-[-1] z-[1] relative bg-[url(./components/images/about.png)] bg-no-repeat bg-cover bg-center pt-[147px] pb-[139px] after:absolute after:bg-black/60 after:content-[""] after:w-full after:h-full after:top-0 after:left-0'>
+                  <div className='w-[70%] after:z-[-1] z-[1] relative bg-[url(./components/images/about.png)] bg-no-repeat bg-cover bg-center pt-[147px] pb-[139px] after:absolute after:bg-black/20 after:content-[""] after:w-full after:h-full after:top-0 after:left-0'>
                       <div className='pl-[280px]'>
                           <Button className='bg-white'>
                               <p className='text-primary'>Learn More</p>
