@@ -21,8 +21,9 @@ function App() {
       <Navbar />
       <Banner />
       <Supplier />
-      <Slider />
+      {/* <Slider /> */}
       <ImageSlider />
+      
       <Services />
       <About />
       <Logo />
