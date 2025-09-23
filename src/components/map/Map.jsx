@@ -14,8 +14,8 @@ const Map = () => {
               <Container>
                   <Flex className='items-center'>
                       <p className='font-primary font-bold text-[36px] text-white'>Want to join as member branch in your area?</p>
-                      <Button className='font-primary font-semibold '>
-                          <p className='border-2 border-[#ffffff] py-[15px] px-[30px]'>CONTACT</p>
+                      <Button className='font-primary font-semibold  '>
+                          <p className='border-2 border-[#ffffff] py-[15px] px-[30px] hover:bg-transparent hover:ring-2 hover:ring-white hover:rounded-lg'>CONTACT</p>
                       </Button>
                   </Flex>
               </Container>

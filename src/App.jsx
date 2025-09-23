@@ -8,6 +8,7 @@ import Logo from "./components/logo/Logo"
 import Map from "./components/map/Map"
 import Navbar from "./components/navbar/Navbar"
 import Services from "./components/services/Services"
+import ImageSlider from "./components/slider/ImageSlider"
 import Slider from "./components/slider/Slider"
 import Supplier from "./components/supplier/Supplier"
 
@@ -21,6 +22,7 @@ function App() {
       <Banner />
       <Supplier />
       <Slider />
+      <ImageSlider />
       <Services />
       <About />
       <Logo />
@@ -28,6 +30,9 @@ function App() {
       <Map />
       <Footer />
       <Copyright />
+
+      
+      
       
       
   
