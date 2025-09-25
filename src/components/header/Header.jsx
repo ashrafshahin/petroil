@@ -11,24 +11,24 @@ const Header = () => {
     return (
         <>
             <div className="bg-secondary border-b-4 border-[#FFB800]">
-                <Container>
-                    <div className=' py-[15px] text-white'>
-                        <div className='flex justify-between '>
+                <Container className="">
+                    <div className=' py-[15px] text-white items-end'>
+                        <div className='md:flex justify-between items-center'>
                             <div className='flex space-x-[49px]'>
                                 <div className="flex relative items-center space-x-[5px]">
                                     <IoMailUnreadOutline size={20} />
-                                    <p className="text-[12px]">mail@yourcompany.com</p>
+                                    <p className="text-[11px] md:text-[12px]">mail@yourcompany.com</p>
                                     {/* <div className="absolute top-0 left-57 h-[100px] w-[100px] color-red ">|</div> */}
                                 </div>
                                 {/* <div className="relative before:absolute before:content-[''] before:top-[5px] before:left-[-27px] before:h-[16px] before:w-[2px] before:bg-green-500"></div> */}
 
                                 <div className=" relative after:absolute after:content-[''] after:top-[5px] after:left-[-27px] after:h-[16px] after:w-[2px] after:bg-[#5C6A92] flex items-center space-x-[5px]">
                                     <FaPhoneAlt size={20} />
-                                    <p className="text-[12px]">+896 120 5889 (Toll free)</p>
+                                    <p className="text-[11px] md:text-[12px]">+896 120 5889 (Toll free)</p>
                                 </div>
                             </div>
 
-                            <div className="flex space-x-[19px] " >
+                            <div className="flex space-x-[19px] mt-4 md:mt-0 mx-28 md:mx-0  " >
                                 <FaFacebookF className="size-[16px]" />
                                 <FaTwitter className="size-[16px]" />
                                 <FaLinkedinIn className="size-[16px]" />

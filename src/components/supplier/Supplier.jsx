@@ -7,16 +7,16 @@ const Supplier = () => {
     
       <div className='font-primary '>
           <Container>
-              <Flex>
+              <div className='md:flex'>
                   <div>
-                      <h2 className='pt-[78px] pb-[100px] font-bold text-[48px] w-[289px] mr-[178px]'>The biggest
+                      <h2 className='pt-[78px] pb-[30px] md:pb-[100px] font-bold text-[24px] md:text-[48px] w-[289px] mr-[178px]'>The biggest
                           supplier on
                           the country</h2>
                   </div>
                   <div>
-                      <p className='w-[651px] text-para font-medium py-[161px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</p>
+                      <p className='md:w-[651px] text-para font-medium md:py-[161px] mb-[30px] md:mb-0'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</p>
                   </div>
-              </Flex>
+              </div>
               
           </Container>
     </div>
