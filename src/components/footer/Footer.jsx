@@ -20,10 +20,10 @@ import certificate2 from "../images/certificate2.png"
 
 const Footer = () => {
   return (
-    <div className='bg-[#1F1F1F] pt-[150px] pb-[280px] font-primary'>
+    <div className='bg-[#1F1F1F] pt-10 md:pt-[150px] pb-10 md:pb-[150px] font-primary'>
       <Container>
-        <Flex>
-          <div className='w-[30%] mr-[145px]'>
+        <Flex className='flex-col md:flex-row items-center'>
+          <div className='md:w-[30%] md:mr-[145px]'>
             <img src={logoFooter} alt="" />
             <div className='flex items-center text-white mt-[33px] text-[14px]'>
               <IoMailUnreadOutline />
@@ -45,8 +45,8 @@ const Footer = () => {
               
             </div>
           </div>
-          <div className='w-[20%] text-white text-[14px] mr-[42px]'>
-            <h3 className='font-bold mb-[21px]'>Company</h3>
+          <div className='py-5 md:py-0 md:w-[20%] text-white text-[14px] mr-[42px]'>
+            <h3 className='font-bold mb-[21px] text-[20px]'>Company</h3>
             <ul >
               <li className='mb-[15px]'>Home</li>
               <li className='mb-[15px]'>About</li>
@@ -54,8 +54,8 @@ const Footer = () => {
               <li className='mb-[15px]'>Gallery</li>
             </ul>
           </div>
-          <div className='w-[20%] text-white text-[14px] mr-[42px]'>
-            <h3 className='font-bold mb-[21px]'>Others</h3>
+          <div className='py-5 md:py-0 md:w-[20%] text-white text-[14px] mr-[42px]'>
+            <h3 className='font-bold mb-[21px] text-[20px]'>Others</h3>
             <ul >
               <li className='mb-[15px]'>Blog</li>
               <li className='mb-[15px]'>Contact</li>
@@ -63,8 +63,8 @@ const Footer = () => {
               <li className='mb-[15px]'>Privacy Policy</li>
             </ul>
           </div>
-          <div className='w-[30%] text-white'>
-            <h3 className='font-bold mb-[21px]'>Certificate</h3>
+          <div className='md:w-[30%] text-white'>
+            <h3 className='font-bold mb-[21px] text-[20px]'>Certificate</h3>
             <div className='flex'>
               <img  className='mr-[7px]' src={certificate1} alt="" />
               <img src={certificate2} alt="" />

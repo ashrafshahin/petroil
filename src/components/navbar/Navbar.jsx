@@ -25,21 +25,21 @@ function Navbar() {
                         
                             <div className=' md:flex space-x-[20px] text-white font-primary font-semibold items-center '>
                                 <ul>
-                                    <li><a className='md:border-2 border-red-500 px-6 py-[13px] hover:border-gray-500' href="#">Home</a></li>
+                                    <li><a className='  px-6 py-[13px] ' href="#">Home</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a className='md:border-2 border-red-500 px-6 py-[13px] hover:border-gray-500' href="#">About</a></li>
+                                    <li><a className='px-6 py-[13px] ' href="#">About</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a className='md:border-2 border-red-500 px-6 py-[13px] hover:border-gray-500' href="#">Services</a></li>
+                                    <li><a className='  px-6 py-[13px] ' href="#">Services</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a className='md:border-2 border-red-500 px-6 py-[13px] hover:border-gray-500' href="#">Gallary</a></li>
+                                    <li><a className='  px-6 py-[13px] ' href="#">Gallary</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a className='md:border-2 border-red-500 px-6 py-[13px] hover:border-gray-500' href="#">Blog</a></li>
+                                    <li><a className='  px-6 py-[13px] ' href="#">Blog</a></li>
                                 </ul>
-                                <button className='mt-2 md:mt-0 border-[2px] px-6 py-[13px] hover:border-gray-500 hover:text-[#000000] '>CONTACT</button>
+                                <button className='mt-2 md:mt-0 border-[2px] px-6 py-[13px] hover:text-[#000000] '>CONTACT</button>
 
                             </div>
                          
@@ -56,7 +56,7 @@ function Navbar() {
                         <div> 
                             {
                                 show ? 
-                                    <div className='absolute top-[182px] left-0 w-full bg-[#F40404]/60  z-[999999] p-2'>
+                                    <div className='absolute top-[182px] left-0 w-full bg-[#F40404]/85  z-[999999] p-2'>
                                         <div className=' md:flex space-x-[20px] text-white font-primary font-semibold items-center '>
                                             <ul>
                                                 <li><a className='md:border-2 border-red-500 px-6 py-[13px] hover:border-gray-500' href="#">Home</a></li>
@@ -73,7 +73,7 @@ function Navbar() {
                                             <ul>
                                                 <li><a className='md:border-2 border-red-500 px-6 py-[13px] hover:border-gray-500' href="#">Blog</a></li>
                                             </ul>
-                                            <button className='mt-2 md:mt-0 border-[2px] px-6 py-[13px] hover:border-gray-500 hover:text-[#000000] '>CONTACT</button>
+                                            <button className='mt-2 md:mt-0 border-[2px] px-1 py-2 hover:border-gray-500 hover:text-[#000000] '>CONTACT</button>
 
                                         </div>
                                     

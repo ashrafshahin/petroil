@@ -8,17 +8,37 @@ import slider2 from "../images/slider2.png"
 import slider3 from "../images/slider3.png"
 import slider4 from "../images/slider4.png"
 
+
 const ImageSlider = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 5000,
-    autoplaySpeed: 1000,
-    cssEase: "linear"
-  };
+  // const settings = {
+  //   dots: false,
+  //   infinite: true,
+  //   slidesToShow: 4,
+  //   slidesToScroll: 2,
+  //   autoplay: true,
+  //   speed: 5000,
+  //   autoplaySpeed: 1000,
+  //   cssEase: "linear"
+  // };
+  
+    const settings = {
+      dots: false,
+      infinite: true,
+      speed: 500,
+      autoplay: true,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      initialSlide: 0,
+      responsive: [
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    }
   return (
     <div className=' pb-[25px] slider-container'>
       <Slider {...settings}>

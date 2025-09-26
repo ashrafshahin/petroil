@@ -9,6 +9,7 @@ import Map from "./components/map/Map"
 import Navbar from "./components/navbar/Navbar"
 import Services from "./components/services/Services"
 import ImageSlider from "./components/slider/ImageSlider"
+import ResponsiveSlider from "./components/slider/ResponsiveSlider"
 import Slider from "./components/slider/Slider"
 import Supplier from "./components/supplier/Supplier"
 
@@ -22,8 +23,9 @@ function App() {
       <Banner />
       <Supplier />
       {/* <Slider /> */}
-      <ImageSlider />
-      
+      {/* <ImageSlider /> */}
+      <ResponsiveSlider />
+           
       <Services />
       <About />
       <Logo />
