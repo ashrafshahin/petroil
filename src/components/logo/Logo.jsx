@@ -9,10 +9,10 @@ import logo4 from "../images/logo4.png"
 
 const Logo = () => {
   return (
-      <div className='py-[115px]'>
+      <div className='md:py-[115px]'>
           <Container>
-              <Flex className='flex-col md:flex-row'>
-                  <img className='pr-[32px]' src={logo1} alt="" />
+              <Flex className='flex-col md:flex-row '>
+          <img className='pr-[32px] ' src={logo1} alt="" />
                   <img className='pr-[32px]' src={logo2} alt="" />
                   <img className='pr-[32px]' src={logo3} alt="" />
                   <img className='pr-[32px]' src={logo4} alt="" />

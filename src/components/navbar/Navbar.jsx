@@ -56,7 +56,7 @@ function Navbar() {
                         <div> 
                             {
                                 show ? 
-                                    <div className='absolute top-[182px] left-0 w-full bg-[#F40404]/85  z-[999999] p-2'>
+                                    <div className='absolute top-[182px] left-0 w-full bg-[#F40404]  z-[999999] p-2'>
                                         <div className=' md:flex space-x-[20px] text-white font-primary font-semibold items-center '>
                                             <ul>
                                                 <li><a className='md:border-2 border-red-500 px-6 py-[13px] hover:border-gray-500' href="#">Home</a></li>
