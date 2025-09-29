@@ -9,7 +9,7 @@ import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import Container from '../Layouts/Container'
 import Flex from '../Layouts/Flex'
 
-import logoFooter from "../images/logoFooter.png"
+import logo5 from "../images/logo5.png"
 import certificate1 from "../images/certificate1.png"
 import certificate2 from "../images/certificate2.png"
 
@@ -21,7 +21,7 @@ const Footer = () => {
       <Container>
         <Flex className='flex-col md:flex-row ml-15 md:ml-0'>
           <div className='md:w-[30%] md:mr-[145px]'>
-            <img src={logoFooter} alt="#" />
+            <img src= {logo5} alt="" />
             <div className='flex items-center text-white mt-[33px] text-[14px]'>
               <IoMailUnreadOutline />
               <p className='ml-[5px]'>mail@yourcompany.com</p>
